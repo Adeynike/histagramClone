@@ -1,41 +1,26 @@
 # Instagram Clone
 
 > Responsive Instagram UI Clone
+ 
+This repository contains files for a static website. This website can be deployed in an AWS S3 bucket. 
 
-This project is a clone of the [Instagram UI](https://instagram.com). I made it to study and improve my skills with HTML and CSS, and learn new concepts, like layouts, responsiveness, positioning and some JS concepts. Any feedback, opinions or suggestions is very welcome!
+Any feedback, opinions or suggestions is very welcome!
 
-The latest update includes some nice new features, such as the gradient border and scroll buttons in stories, and the possibility to add more than one media to the post content, plus, of course, a major overhaul of the UI design!
 
-- **[Live Preview](https://leocosta1.github.io/instagram-clone/)**
-
-## 🤓 Improved Skills
-
-- Layout (Flexbox);
-- Positioning;
-- Semantic HTML;
-- Responsiveness (Media Queries, Relative Lengths);
-- Light/Dark Theme;
-- SVG Usage;
-- BEM Methodology;
-- Scroll Snapping;
-- Events;
-- LocalStorage;
-- Intersection Observer;
-
-## ✅ ToDo
-
-- [ ] Refactor CSS (Maybe add SASS).
 
 ## ⚙ Dev Setup (VS Code)
 
 1. Clone the project.
 2. Open the folder with ``Visual Studio Code``.
-3. Install ``Live Preview`` extension.
-4. Right click **index.html** > ``Live Preview: Show Preview``.
-5. Open the ``localhost:3000`` address in your favorite browser.
+3. Create an Amazon S3 Bucket
+4. Upload the files in the S3 Bucket
+5. Enable Website Endpoint 
+6. Create an Alias record in Amazon Route to the S3 Endpoint 
+7. Test your record to make sure everything works
+5. Goodluck!!
 
 ## ℹ Infos
 
-Made by Leonardo Costa 🙂
+Forked and edityed from  Leonardo Costa original repo 🙂
 
 Distributed under the MIT License. See ``LICENSE`` for more information.
