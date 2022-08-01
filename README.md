@@ -12,6 +12,7 @@ Any feedback, opinions or suggestions is very welcome!
 
 1. Clone the project.
 2. Open the folder with ``Visual Studio Code``.
+3. Edit and customize the assets (Be Creative)
 3. Create an Amazon S3 Bucket
 4. Upload the files in the S3 Bucket
 5. Enable Website Endpoint 
